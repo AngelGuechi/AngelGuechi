@@ -20,12 +20,7 @@ My role in the work presented here is end-to-end implementation. Code links are 
 
 Additional engineering work includes an industrial monitoring simulation using Python, pandas, SQLite, Matplotlib, and Excel reports to analyze sensor signals, actuator activity, cycle completion, and emergency-stop events.
 
-## How I work
 
-- Start with the operational decision, the source data, and the calculation rules.
-- Keep KPI arithmetic in code; use AI to explain already computed evidence.
-- Make imports, validation failures, and underlying records visible to the reviewer.
-- Label synthetic demonstrations and prototypes clearly, and keep human review in decision workflows.
 
 ## Technical focus
 
