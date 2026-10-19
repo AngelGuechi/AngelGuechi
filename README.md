@@ -10,17 +10,29 @@ I am a Mechatronics Engineer building data applications, reporting automation, a
 
 | Project | Business problem and implementation | Stack |
 |---|---|---|
-| Operations Analytics & AI Coaching | AHT and QA review tools: Excel ingestion, calculated KPIs, supervisor drill-downs, and optional AI explanations grounded in evidence. Local prototypes; source is private. | Python, FastAPI, Streamlit, SQLite, Excel, OpenAI adapters |
-| Call Review & Speech Analytics | Supervisor review desk with peer baselines, source evidence, human decisions, silence measurements, and local CPU transcription. Synthetic demo and local pilot; source is private. | FastAPI, React, NumPy, Silero, faster-whisper |
+| [Contact Center Analytics Suite](https://github.com/AngelGuechi/contact-center-analytics-suite) | AHT dashboards, NPS backend, Excel/Streamlit QA review, and optional AI coaching explanations. Curated public source with fictional demo generators. | Python, FastAPI, Streamlit, SQLite, Excel, Polars |
+| [Call Review & Speech Analytics](https://github.com/AngelGuechi/contact-center-analytics-suite/tree/main/05-call-avoidance-detector) | Supervisor review desk with peer baselines, source evidence, human decisions, silence measurements, and local CPU transcription. Synthetic demo and local pilot. | FastAPI, React, NumPy, Silero, faster-whisper |
 | [Insurance Call Intelligence](https://github.com/AngelGuechi/insurance-call-intelligence/tree/main/chat) | Encrypted audio import, transcription, call review, and demo summaries; a 15-call synthetic library makes the workflow inspectable. | FastAPI, React, PostgreSQL, Redis, faster-whisper |
 | [Claims-to-Excel Automation](https://github.com/AngelGuechi/claims-excel-automation) | Matches synthetic claim and policy records through HTTP adapters, validates data, and fills an Excel template. Local system simulation with a VBA option. | Python, FastAPI, REST APIs, Excel/VBA |
 | [Vehicle Detection & Traffic Priority](https://github.com/AngelGuechi/vehicle-detection-traffic-priority) | Counts cars in two local images with YOLOv3 and sends a priority decision to Arduino when connected. Image-based engineering prototype. | Python, OpenCV, YOLOv3, Tkinter, Arduino |
 
 My role in the work presented here is end-to-end implementation. Code links are included for public projects; private-source work is described at a high level.
 
+## Additional project work
+
+- **KAIROS Retail Intelligence:** retail data pipelines, identity resolution, data quality, segmentation, market signals, forecast ranges, and human-reviewed agent workflows. Private source.
+- **Data Health & Risk Dashboard:** asset health, SLA status, lineage, incident impact, risk-exposure search, and an optional grounded assistant. Private source.
+- **Blood Report Triage:** a report-ingestion and prioritization prototype with deterministic checks, optional explanations, and Excel output. Private source; clinical validation is outside the project scope.
+- **Health Research Explainer:** PubMed retrieval, source-linked explanations, and video-script workflows. [Public fork experiment](https://github.com/AngelGuechi/health-explainer-research-fork); the separate development repository is private.
+
 Additional engineering work includes an industrial monitoring simulation using Python, pandas, SQLite, Matplotlib, and Excel reports to analyze sensor signals, actuator activity, cycle completion, and emergency-stop events.
 
+## How I work
 
+- Start with the operational decision, the source data, and the calculation rules.
+- Keep KPI arithmetic in code; use AI to explain already computed evidence.
+- Make imports, validation failures, and underlying records visible to the reviewer.
+- Label synthetic demonstrations and prototypes clearly, and keep human review in decision workflows.
 
 ## Technical focus
 
