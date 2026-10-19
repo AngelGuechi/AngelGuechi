@@ -12,9 +12,9 @@ I am a Mechatronics Engineer building data applications, reporting automation, a
 |---|---|---|
 | Operations Analytics & AI Coaching | AHT and QA review tools: Excel ingestion, calculated KPIs, supervisor drill-downs, and optional AI explanations grounded in evidence. Local prototypes; source is private. | Python, FastAPI, Streamlit, SQLite, Excel, OpenAI adapters |
 | Call Review & Speech Analytics | Supervisor review desk with peer baselines, source evidence, human decisions, silence measurements, and local CPU transcription. Synthetic demo and local pilot; source is private. | FastAPI, React, NumPy, Silero, faster-whisper |
-| [Insurance Call Intelligence](https://github.com/AngelGuechi/etna2/tree/main/chat) | Encrypted audio import, transcription, call review, and demo summaries; a 15-call synthetic library makes the workflow inspectable. | FastAPI, React, PostgreSQL, Redis, faster-whisper |
-| [Claims-to-Excel Automation](https://github.com/AngelGuechi/macro-auto) | Matches synthetic claim and policy records through HTTP adapters, validates data, and fills an Excel template. Local system simulation with a VBA option. | Python, FastAPI, REST APIs, Excel/VBA |
-| [Vehicle Detection & Traffic Priority](https://github.com/AngelGuechi/Smart-stopligh-system-using-arduino) | Counts cars in two local images with YOLOv3 and sends a priority decision to Arduino when connected. Image-based engineering prototype. | Python, OpenCV, YOLOv3, Tkinter, Arduino |
+| [Insurance Call Intelligence](https://github.com/AngelGuechi/insurance-call-intelligence/tree/main/chat) | Encrypted audio import, transcription, call review, and demo summaries; a 15-call synthetic library makes the workflow inspectable. | FastAPI, React, PostgreSQL, Redis, faster-whisper |
+| [Claims-to-Excel Automation](https://github.com/AngelGuechi/claims-excel-automation) | Matches synthetic claim and policy records through HTTP adapters, validates data, and fills an Excel template. Local system simulation with a VBA option. | Python, FastAPI, REST APIs, Excel/VBA |
+| [Vehicle Detection & Traffic Priority](https://github.com/AngelGuechi/vehicle-detection-traffic-priority) | Counts cars in two local images with YOLOv3 and sends a priority decision to Arduino when connected. Image-based engineering prototype. | Python, OpenCV, YOLOv3, Tkinter, Arduino |
 
 My role in the work presented here is end-to-end implementation. Code links are included for public projects; private-source work is described at a high level.
 
